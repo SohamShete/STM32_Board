@@ -4240,10 +4240,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c051d57a-bf89-4eca-af70-d26096d7f12b")
 		(property "Reference" "FB1"
-			(at 195.5292 40.64 90)
+			(at 195.326 52.578 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +4250,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 195.5292 43.18 90)
+			(at 195.326 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
