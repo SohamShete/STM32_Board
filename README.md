@@ -14,4 +14,4 @@ A custom STM32F103C8T6 PCB designed from scratch in KiCad 9.
 - STM32CubeIDE
 
 ## Status
-🔄 In progress — schematic complete, PCB layout next
+In progress — schematic complete, PCB layout next
