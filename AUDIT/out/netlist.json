@@ -1,0 +1,716 @@
+{
+ "symbols": [
+  {
+   "ref": "#PWR06",
+   "value": "GND",
+   "footprint": "",
+   "lib_id": "power:GND",
+   "at": [
+    207.01,
+    60.96,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "C9",
+   "value": "100n",
+   "footprint": "",
+   "lib_id": "Device:C",
+   "at": [
+    80.01,
+    69.85,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "U1",
+   "value": "STM32F103C8T6",
+   "footprint": "Package_QFP:LQFP-48_7x7mm_P0.5mm",
+   "lib_id": "MCU_ST_STM32F1:STM32F103C8Tx",
+   "at": [
+    149.86,
+    96.52,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "C1",
+   "value": "100n",
+   "footprint": "",
+   "lib_id": "Device:C",
+   "at": [
+    127,
+    53.34,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "SW1",
+   "value": "SW_SPDT",
+   "footprint": "",
+   "lib_id": "Switch:SW_SPDT",
+   "at": [
+    102.87,
+    68.58,
+    180
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "C2",
+   "value": "100n",
+   "footprint": "",
+   "lib_id": "Device:C",
+   "at": [
+    115.57,
+    53.34,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "C5",
+   "value": "10u",
+   "footprint": "",
+   "lib_id": "Device:C",
+   "at": [
+    77.47,
+    53.34,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "C8",
+   "value": "1u",
+   "footprint": "",
+   "lib_id": "Device:C",
+   "at": [
+    207.01,
+    53.34,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "#PWR07",
+   "value": "+3.3V",
+   "footprint": "",
+   "lib_id": "power:+3.3V",
+   "at": [
+    207.01,
+    45.72,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "#PWR03",
+   "value": "GND",
+   "footprint": "",
+   "lib_id": "power:GND",
+   "at": [
+    77.47,
+    60.96,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "C4",
+   "value": "100n",
+   "footprint": "",
+   "lib_id": "Device:C",
+   "at": [
+    90.17,
+    53.34,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "R1",
+   "value": "10k",
+   "footprint": "",
+   "lib_id": "Device:R",
+   "at": [
+    120.65,
+    68.58,
+    90
+   ],
+   "mirror": "x",
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "C7",
+   "value": "1u",
+   "footprint": "",
+   "lib_id": "Device:C",
+   "at": [
+    182.88,
+    53.34,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "#PWR04",
+   "value": "+3.3VA",
+   "footprint": "",
+   "lib_id": "power:+3.3VA",
+   "at": [
+    154.94,
+    45.72,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "#PWR08",
+   "value": "GND",
+   "footprint": "",
+   "lib_id": "power:GND",
+   "at": [
+    80.01,
+    74.93,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "C3",
+   "value": "100n",
+   "footprint": "",
+   "lib_id": "Device:C",
+   "at": [
+    102.87,
+    53.34,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "#PWR05",
+   "value": "GND",
+   "footprint": "",
+   "lib_id": "power:GND",
+   "at": [
+    182.88,
+    60.96,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "#PWR02",
+   "value": "+3.3V",
+   "footprint": "",
+   "lib_id": "power:+3.3V",
+   "at": [
+    144.78,
+    45.72,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "#PWR01",
+   "value": "GND",
+   "footprint": "",
+   "lib_id": "power:GND",
+   "at": [
+    149.86,
+    139.7,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "#PWR09",
+   "value": "GND",
+   "footprint": "",
+   "lib_id": "power:GND",
+   "at": [
+    95.25,
+    74.93,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "FB1",
+   "value": "120R",
+   "footprint": "",
+   "lib_id": "Device:FerriteBead",
+   "at": [
+    195.58,
+    48.26,
+    90
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "C6",
+   "value": "10n",
+   "footprint": "",
+   "lib_id": "Device:C",
+   "at": [
+    171.45,
+    53.34,
+    0
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  },
+  {
+   "ref": "#PWR010",
+   "value": "+3.3V",
+   "footprint": "",
+   "lib_id": "power:+3.3V",
+   "at": [
+    95.25,
+    66.04,
+    90
+   ],
+   "mirror": null,
+   "dnp": "no",
+   "in_bom": "yes"
+  }
+ ],
+ "nets": [
+  {
+   "name": "GND",
+   "labels": [],
+   "pins": [
+    "C1.2(~)",
+    "C2.2(~)",
+    "C3.2(~)",
+    "C4.2(~)",
+    "C5.2(~)",
+    "C6.2(~)",
+    "C7.2(~)",
+    "C8.2(~)",
+    "C9.2(~)",
+    "SW1.1(A)",
+    "U1.23(VSS)",
+    "U1.35(VSS)",
+    "U1.47(VSS)",
+    "U1.8(VSSA)"
+   ],
+   "npins": 14
+  },
+  {
+   "name": "+3.3V",
+   "labels": [],
+   "pins": [
+    "C1.1(~)",
+    "C2.1(~)",
+    "C3.1(~)",
+    "C4.1(~)",
+    "C5.1(~)",
+    "C8.1(~)",
+    "FB1.2(~)",
+    "SW1.3(C)",
+    "U1.1(VBAT)",
+    "U1.24(VDD)",
+    "U1.36(VDD)",
+    "U1.48(VDD)"
+   ],
+   "npins": 12
+  },
+  {
+   "name": "+3.3VA",
+   "labels": [],
+   "pins": [
+    "C6.1(~)",
+    "C7.1(~)",
+    "FB1.1(~)",
+    "U1.9(VDDA)"
+   ],
+   "npins": 4
+  },
+  {
+   "name": "BOOT0",
+   "labels": [
+    "BOOT0"
+   ],
+   "pins": [
+    "R1.1(~)",
+    "U1.44(BOOT0)"
+   ],
+   "npins": 2
+  },
+  {
+   "name": "NRST",
+   "labels": [
+    "NRST"
+   ],
+   "pins": [
+    "C9.1(~)",
+    "U1.7(NRST)"
+   ],
+   "npins": 2
+  },
+  {
+   "name": "SW_BOOT0",
+   "labels": [
+    "SW_BOOT0"
+   ],
+   "pins": [
+    "R1.2(~)",
+    "SW1.2(B)"
+   ],
+   "npins": 2
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.5(PD0)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.6(PD1)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.2(PC13)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.3(PC14)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.4(PC15)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.18(PB0)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.19(PB1)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.20(PB2)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.39(PB3)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.40(PB4)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.41(PB5)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.42(PB6)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.43(PB7)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.45(PB8)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.46(PB9)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.21(PB10)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.22(PB11)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.25(PB12)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.26(PB13)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.27(PB14)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.28(PB15)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.10(PA0)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.11(PA1)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.12(PA2)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.13(PA3)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.14(PA4)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.15(PA5)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.16(PA6)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.17(PA7)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.29(PA8)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.30(PA9)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.31(PA10)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.32(PA11)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.33(PA12)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.34(PA13)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.37(PA14)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "(unnamed)",
+   "labels": [],
+   "pins": [
+    "U1.38(PA15)"
+   ],
+   "npins": 1
+  },
+  {
+   "name": "<EMPTY LABEL>",
+   "labels": [
+    "<EMPTY LABEL>"
+   ],
+   "pins": [],
+   "npins": 0
+  }
+ ]
+}

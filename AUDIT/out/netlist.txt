@@ -1,0 +1,102 @@
+# STM32_Board/STM32_Board.kicad_sch
+# symbols: 23  wires: 56  junctions: 18  labels: 4  no_connects: 0
+
+## Components
+  C1     100n             fp='<none>'                                 dnp=no in_bom=yes
+  C2     100n             fp='<none>'                                 dnp=no in_bom=yes
+  C3     100n             fp='<none>'                                 dnp=no in_bom=yes
+  C4     100n             fp='<none>'                                 dnp=no in_bom=yes
+  C5     10u              fp='<none>'                                 dnp=no in_bom=yes
+  C6     10n              fp='<none>'                                 dnp=no in_bom=yes
+  C7     1u               fp='<none>'                                 dnp=no in_bom=yes
+  C8     1u               fp='<none>'                                 dnp=no in_bom=yes
+  C9     100n             fp='<none>'                                 dnp=no in_bom=yes
+  FB1    120R             fp='<none>'                                 dnp=no in_bom=yes
+  R1     10k              fp='<none>'                                 dnp=no in_bom=yes
+  SW1    SW_SPDT          fp='<none>'                                 dnp=no in_bom=yes
+  U1     STM32F103C8T6    fp='Package_QFP:LQFP-48_7x7mm_P0.5mm'       dnp=no in_bom=yes
+
+## Nets
+  GND            [14] C1.2(~), C2.2(~), C3.2(~), C4.2(~), C5.2(~), C6.2(~), C7.2(~), C8.2(~), C9.2(~), SW1.1(A), U1.23(VSS), U1.35(VSS), U1.47(VSS), U1.8(VSSA)
+  +3.3V          [12] C1.1(~), C2.1(~), C3.1(~), C4.1(~), C5.1(~), C8.1(~), FB1.2(~), SW1.3(C), U1.1(VBAT), U1.24(VDD), U1.36(VDD), U1.48(VDD)
+  +3.3VA         [4] C6.1(~), C7.1(~), FB1.1(~), U1.9(VDDA)
+  BOOT0          [2] R1.1(~), U1.44(BOOT0)
+  NRST           [2] C9.1(~), U1.7(NRST)
+  SW_BOOT0       [2] R1.2(~), SW1.2(B)
+  (unnamed)      [1] U1.5(PD0)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.6(PD1)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.2(PC13)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.3(PC14)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.4(PC15)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.18(PB0)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.19(PB1)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.20(PB2)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.39(PB3)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.40(PB4)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.41(PB5)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.42(PB6)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.43(PB7)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.45(PB8)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.46(PB9)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.21(PB10)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.22(PB11)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.25(PB12)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.26(PB13)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.27(PB14)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.28(PB15)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.10(PA0)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.11(PA1)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.12(PA2)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.13(PA3)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.14(PA4)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.15(PA5)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.16(PA6)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.17(PA7)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.29(PA8)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.30(PA9)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.31(PA10)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.32(PA11)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.33(PA12)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.34(PA13)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.37(PA14)   <-- SINGLE-PIN NET
+  (unnamed)      [1] U1.38(PA15)   <-- SINGLE-PIN NET
+  <EMPTY LABEL>  [0]    <-- LABEL WITH NO PINS
+
+## Unconnected pins (no wire/label/power at pin end)
+  U1.5 (PD0, bidirectional) at (132.08, 73.66)
+  U1.6 (PD1, bidirectional) at (132.08, 76.2)
+  U1.2 (PC13, bidirectional) at (132.08, 81.28)
+  U1.3 (PC14, bidirectional) at (132.08, 83.82)
+  U1.4 (PC15, bidirectional) at (132.08, 86.36)
+  U1.18 (PB0, bidirectional) at (132.08, 91.44)
+  U1.19 (PB1, bidirectional) at (132.08, 93.98)
+  U1.20 (PB2, bidirectional) at (132.08, 96.52)
+  U1.39 (PB3, bidirectional) at (132.08, 99.06)
+  U1.40 (PB4, bidirectional) at (132.08, 101.6)
+  U1.41 (PB5, bidirectional) at (132.08, 104.14)
+  U1.42 (PB6, bidirectional) at (132.08, 106.68)
+  U1.43 (PB7, bidirectional) at (132.08, 109.22)
+  U1.45 (PB8, bidirectional) at (132.08, 111.76)
+  U1.46 (PB9, bidirectional) at (132.08, 114.3)
+  U1.21 (PB10, bidirectional) at (132.08, 116.84)
+  U1.22 (PB11, bidirectional) at (132.08, 119.38)
+  U1.25 (PB12, bidirectional) at (132.08, 121.92)
+  U1.26 (PB13, bidirectional) at (132.08, 124.46)
+  U1.27 (PB14, bidirectional) at (132.08, 127.0)
+  U1.28 (PB15, bidirectional) at (132.08, 129.54)
+  U1.10 (PA0, bidirectional) at (167.64, 63.5)
+  U1.11 (PA1, bidirectional) at (167.64, 66.04)
+  U1.12 (PA2, bidirectional) at (167.64, 68.58)
+  U1.13 (PA3, bidirectional) at (167.64, 71.12)
+  U1.14 (PA4, bidirectional) at (167.64, 73.66)
+  U1.15 (PA5, bidirectional) at (167.64, 76.2)
+  U1.16 (PA6, bidirectional) at (167.64, 78.74)
+  U1.17 (PA7, bidirectional) at (167.64, 81.28)
+  U1.29 (PA8, bidirectional) at (167.64, 83.82)
+  U1.30 (PA9, bidirectional) at (167.64, 86.36)
+  U1.31 (PA10, bidirectional) at (167.64, 88.9)
+  U1.32 (PA11, bidirectional) at (167.64, 91.44)
+  U1.33 (PA12, bidirectional) at (167.64, 93.98)
+  U1.34 (PA13, bidirectional) at (167.64, 96.52)
+  U1.37 (PA14, bidirectional) at (167.64, 99.06)
+  U1.38 (PA15, bidirectional) at (167.64, 101.6)
