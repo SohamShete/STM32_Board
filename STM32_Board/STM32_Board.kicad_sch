@@ -2689,16 +2689,6 @@
 		)
 		(uuid "f7ae44c4-24a9-4ae8-a0f9-3f842fd0a412")
 	)
-	(label ""
-		(at 123.19 68.58 0)
-		(effects
-			(font
-				(size 1.143 1.143)
-			)
-			(justify left bottom)
-		)
-		(uuid "8630ac79-8a44-429b-bcae-4bc8987eb414")
-	)
 	(label "BOOT0"
 		(at 125.73 68.58 0)
 		(effects

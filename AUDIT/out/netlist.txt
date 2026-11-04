@@ -1,5 +1,5 @@
 # STM32_Board/STM32_Board.kicad_sch
-# symbols: 23  wires: 56  junctions: 18  labels: 4  no_connects: 0
+# symbols: 23  wires: 56  junctions: 18  labels: 3  no_connects: 0
 
 ## Components
   C1     100n             fp='<none>'                                 dnp=no in_bom=yes
@@ -60,7 +60,6 @@
   (unnamed)      [1] U1.34(PA13)   <-- SINGLE-PIN NET
   (unnamed)      [1] U1.37(PA14)   <-- SINGLE-PIN NET
   (unnamed)      [1] U1.38(PA15)   <-- SINGLE-PIN NET
-  <EMPTY LABEL>  [0]    <-- LABEL WITH NO PINS
 
 ## Unconnected pins (no wire/label/power at pin end)
   U1.5 (PD0, bidirectional) at (132.08, 73.66)

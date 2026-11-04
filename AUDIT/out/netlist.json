@@ -703,14 +703,6 @@
     "U1.38(PA15)"
    ],
    "npins": 1
-  },
-  {
-   "name": "<EMPTY LABEL>",
-   "labels": [
-    "<EMPTY LABEL>"
-   ],
-   "pins": [],
-   "npins": 0
   }
  ]
 }
